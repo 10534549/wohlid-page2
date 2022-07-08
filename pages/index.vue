@@ -1,6 +1,7 @@
 <template>
   <div>
     <br/>
+    <div>
     <v-card elevation="0">
       <v-carousel
         class="fill-height"
@@ -26,8 +27,9 @@
         </v-carousel-item>
       </v-carousel>
     </v-card>
+    </div>
     <v-container>
-      <h2 class="text-center">GUY BRAND LIMITED</h2>
+      <h2 class="text-center yellow--text text--darken-4">GUY BRAND LIMITED</h2>
       <br />
       <div class="underline1"></div>
       <br />
@@ -113,7 +115,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container class="footer" style="color: grey darken-2">
+    <div class="footer" style="color: grey darken-2">
       <v-row>
         <v-col style="color: grey" cols="12" sm="5" md="4">
           <v-img
@@ -154,7 +156,7 @@
           </div>
         </v-col>
       </v-row>
-    </v-container>
+    </div>
   </div>
 </template>
 

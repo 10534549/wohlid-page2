@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container>
+    <div>
       <v-img :src="require(`@/assets/images/3.png`)" height="700">
         <v-row class="fill-height" align="center" justify="center">
           <div class="text-h2">
@@ -8,8 +8,7 @@
           </div>
         </v-row>
       </v-img>
-    </v-container>
-    <!-- <div width="100%">
+</div>    <!-- <div width="100%">
     <img
       :src="require(`/assets/images/3.png`)"  
     />
@@ -34,7 +33,7 @@
         you to develop the best solution for your home.
       </p>
       <p>
-        Please feel free to contact us regarding any of our services using the
+         Please feel free to contact us regarding any of our services using the
         following details:
       </p>
     </v-container>
@@ -81,7 +80,7 @@
         </div>
       </v-row> </v-container
     ><br />
-    <v-container class="footer" style="color: grey darken-2">
+    <div class="footer" style="color: grey darken-2">
       <v-row class="foot">
         <span>
           <v-img
@@ -98,7 +97,7 @@
           </p>
         </span>
       </v-row>
-    </v-container>
+    </div>
   </div>
 </template>
 <script>

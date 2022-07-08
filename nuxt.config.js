@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - pages',
-    title: 'pages',
+    title: 'webpage',
     htmlAttrs: {
       lang: 'en'
     },
@@ -38,6 +38,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/pwa'
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -59,7 +60,24 @@ export default {
     }
   },
 
+  pwa:{
+    meta:{
+      title:'webpage',
+      author:'sravya',
+    },
+    manifest:{
+      name:'webpage',
+      short_name:'webpage',
+      description:'sample page for practise',
+      lang:'en',
+    },
+    icon:{
+      fileName:'youtube.png',
+      sizes:[64, 120, 144, 152, 192, 384, 512]
+    }
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
 }
+

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container>
+    <div>
       <v-img :src="require(`@/assets/images/3.png`)" height="700">
         <v-row class="fill-height" align="center" justify="center">
           <div class="text-h2">
@@ -8,7 +8,7 @@
           </div>
         </v-row>
       </v-img>
-    </v-container>
+    </div>
     <v-container>
       <v-row align="center">
         <v-col cols="12" sm="6" md="8">
@@ -55,7 +55,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container class="footer" style="color: grey darken-2">
+    <div class="footer" style="color: grey darken-2">
       <v-row>
         <v-col style="color: grey" cols="12" sm="5" md="4">
           <v-img
@@ -95,7 +95,7 @@
           </div>
         </v-col>
       </v-row>
-    </v-container>
+    </div>
   </div>
 </template>
 <script>

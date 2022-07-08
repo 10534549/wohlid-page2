@@ -1,14 +1,14 @@
 <template>
   <div>
-    <v-container>
+    <div>
       <v-img :src="require(`@/assets/images/3.png`)" height="700">
         <v-row class="fill-height" align="center" justify="center">
           <div class="text-h2">
-            <strong class=" yellow--text text--darken-4"> About us </strong>
+            <strong class="yellow--text text--darken-4"> About us </strong>
           </div>
         </v-row>
       </v-img>
-    </v-container>
+    </div>
     <v-container>
       <div>
         <h2 class="blue--text text--darken-4 text-center">
@@ -114,7 +114,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container class="footer" style="color: grey darken-2">
+    <div class="footer" style="color: grey darken-2">
       <v-row>
         <v-col style="color: grey" cols="12" sm="5" md="4">
           <v-img
@@ -154,7 +154,7 @@
           </div>
         </v-col>
       </v-row>
-    </v-container>
+    </div>
   </div>
 </template>
 <script>

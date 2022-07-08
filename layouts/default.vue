@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <v-app-bar :clipped-left="clipped" fixed shrink-on-scroll prominent  elevation="0" 
-    
-    class="text-xs-center">
+    <v-app-bar :clipped-left="clipped" fixed  prominent  elevation="0" 
+    class="text-xs-right"
+    >
 <v-toolbar-side-icon>
         <v-img
           :src="require(`@/assets/images/2.png`)"
@@ -26,9 +26,7 @@
     </v-app-bar>
 
     <v-main>
-      <v-container>
         <Nuxt />
-      </v-container>
     </v-main>
     
   </v-app>
